@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="src/styles.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;900&familydisplay=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a304d1973.js" crossorigin="anonymous"></script>
+    <!-- axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+   <div class="container">
+     <div class="weather-app">       
+        <form id="search-form">
+          <div class="row">
+            <div class="col-6">
+              <input 
+                id = "cityInput"
+                type="search" 
+                placeholder="Enter a city..." 
+                autocomplete="on"
+                class="form-control shadow-sm"
+                />
+            </div>
+            <div class="col-2">
+              <input 
+              id = "searchButton"
+              type="submit" 
+              value="Search"
+              class="form-control btn btn-light shadow-sm"/>
+            </div>
+            <div class="col-2">
+              <input
+              class="btn btn-primary w-100" 
+              id="submitPin" 
+              type="submit" 
+              value="Current" 
+               />
+            </div>
+          </div>
+      </form>
+      <hr>
+      <h1 id="cityHeading"></h1>
+      <ul>
+        <li>
+          Last updated: <span id="date-time"></span>
+        </li>
+        <li id="dayForecast"></li>   
+      </ul>
+      <div class="row">
+        <div class="col-6">
+          <div class="clearfix">
+            <img 
+            src=""
+            alt=""
+            id="icon"
+            width="70"
+            class="weather-icon float-left"
+            />
+              <span id="temperature">
+              </span>
+              <span class="units">
+                <a href id="celsius-button">°C |</a>
+                <a href id="faranheit-button">°F</a>
+              </span>
+          </div>
+        </div>
+        <div class="col-6">
+          <ul id="weather-conditions">
+            <li id="feels-like">
+            </li>
+            <li id="Humidity">          
+            </li>
+            <li id="wind"> 
+            </li>
+          </ul>
+        </div>
+      </div>
+
+   <!-- forecast -->
+    <div class="weather-forecast" id="forecast">
+    </div>
+    </div>
+
+    <!-- Github link -->
+      <p class="githubLink">
+      </p>
+   </div>
+
+  <script src="src/index.js"></script>
+  </body>
+</html>

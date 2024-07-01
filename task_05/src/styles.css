@@ -1,0 +1,155 @@
+body {
+    font-family: "poppins", sans-serif;
+    background-color: #f9f7fe;
+  }
+  
+  h1 {
+    font-size: 50px;
+    padding: 30px 0px 20px 0px;
+    line-height: 51px;
+    font-weight: 550;
+    margin: 0;
+    margin-left: 42px;
+  }
+  
+  p {
+    color: #a9a6b3;
+  }
+  
+  ul {
+    margin: 0px 0px 10px;
+    padding: 10px;
+  }
+  
+  li {
+    font-size: 16px;
+    height: 19px;
+    line-height: 1;
+    list-style: none;
+    margin-left: 35px;
+    color: #a9a6b3;
+  }
+  
+  li:first-letter {
+    text-transform: capitalize;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #885df1;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #885df1;
+  }
+  
+  hr {
+    margin: 30px 67px 5px 40px;
+    color: #e4bad4;
+  }
+  
+  .container {
+    padding-top: 30px;
+  }
+  
+  .weather-app {
+    border-radius: 25px;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 40px;
+    padding-top: 50px;
+    background-color: #fff;
+    box-shadow: 9px 9px 24px 9px #13223811;
+  }
+  
+  #cityInput {
+    background: #f9f7fe;
+    border: none;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 6px;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    height: 40px;
+    line-height: 20px;
+    margin-left: 40px;
+  }
+  
+  #searchButton {
+    margin-left: 40px;
+    height: 40px;
+  }
+  
+  #submitPin {
+    margin-left: 40px;
+    background-color: #885df1;
+    border: #885df1;
+    height: 40px;
+  }
+  
+  .weather-icon {
+    height: 64px;
+    width: 64px;
+    vertical-align: top;
+  }
+  
+  #temperature {
+    font-size: 70px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1;
+  }
+  
+  .units {
+    position: relative;
+    top: -36px;
+    font-size: 14px;
+  }
+  
+  .clearfix {
+    margin-left: 35px;
+  }
+  
+  #feels-like,
+  #Humidity,
+  #wind {
+    margin-left: 70px;
+  }
+  
+  .weather-forecast-date {
+    font-size: 17px;
+  }
+  
+  #forecast {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 65px;
+    color: #a9a6b3;
+  }
+  
+  .submitPin {
+    display: block;
+    margin: 0 auto;
+    text-align: right;
+  }
+  
+  .img-forecast-sm {
+    padding: 0.5rem 0 1rem;
+    width: 50px;
+  }
+  
+  .githubLink {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .highTemp {
+    color: #e4bad4;
+    font-weight: 700;
+  }
+  
+  .lowTemp {
+    color: #e4bad4;
+    opacity: 0.6;
+  }
